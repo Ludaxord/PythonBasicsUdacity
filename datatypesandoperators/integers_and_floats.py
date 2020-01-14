@@ -13,5 +13,11 @@ print(.1 + .1 + .1)
 print(.1 + .1 + .1 == .3)
 #it is not equal because .1 in python is little more than 0.1
 
-# 79-99 chars in line
+# recommended is 79-99 characters in line
 # styleguide reference - https://www.python.org/dev/peps/pep-0008/
+
+# QUIZ
+
+print(5/0) 
+
+# python do not allow to divide by zero
