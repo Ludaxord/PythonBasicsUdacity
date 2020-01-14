@@ -65,5 +65,3 @@ reservoir_volume -= 2.5e5
 
 # print the new value of the reservoir_volume variable
 print(reservoir_volume)
-
-# 2
