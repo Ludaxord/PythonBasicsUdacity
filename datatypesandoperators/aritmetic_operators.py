@@ -42,5 +42,3 @@ bought_tiles = 17 * tiles_in_package
 left_tiles = bought_tiles - all_tiles
 print(left_tiles)
 # 3
-
-# 4
