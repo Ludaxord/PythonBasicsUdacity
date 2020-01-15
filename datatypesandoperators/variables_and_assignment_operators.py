@@ -1,7 +1,5 @@
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import os
-from pathlib import Path
+from tools.tools import display_image
+
 x = 2
 y = x
 print(f"x => {x} y => {y}")
@@ -14,13 +12,7 @@ y = 11.995
 z = x/y
 print(z)
 
-directory = Path(os.getcwd())
-file_dir = f"{directory}/resources/keywords.png"
-print(f"file dir {file_dir}")
-img = mpimg.imread(file_dir)
-plot = plt.imshow(img)
-print("Reserved keywords in python")
-plt.show()
+display_image("keywords.png", "Reserved keywords in python")
 
 mv_population = 74728
 non_python_mv_population = mv_population + 4000 - 600
